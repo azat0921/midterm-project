@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="stylesheet" href="books_style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+</head>
+
+<body id="page-top">   
+  <!-- NAVIGATION-->
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">
+  <!--Навбары требуют «обертки» из классов .navbar 
+  и .navbar-expand{-sm|-md|-lg|-xl} для отзывчивости при «складывании»и классы , а также классы цветовых схем.-->
+
+  <!--.container для центрирования навбара на странице-->
+  <div class="container">
+  <a class="navbar-brand" href="index.html">HOME</a>
+
+  <!--Тогглер (кнопка разворачивания меню) Тогглеры по умолчанию выровнены по левому краю, 
+  но если они идут за дочерними элементами как .navbar-brand – они автоматически выровняются по правому краю.-->
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span></button>
+  <div class="collapse navbar-collapse" id="navbarResponsive"> <!--то, что появляется при раскрытий меню-->
+    <div class="navbar-nav ms-auto">
+      <a class="nav-link" href="borrow.html">BORROW</a>
+      <a class="nav-link active" aria-current="page" href="#">BOOKS</a>
+      <a class="nav-link" href="#contacts">CONTACTS</a>
+    </div></div></div></nav>
+
+    <header>
+      <div class="banner"> <!--backgroung image under the nav bar with the text in the centre-->
+          <img class="banner-image" src="images/books.jpg" alt="banner">
+      <div class="centered fixed">YOU CAN FIND ALL BOOKS HERE</div>
+    </div>
+  </header>
+    
+
+<section id ="main"> <!--6 books in the form of cards with its title and description using css grid-->
+<div class ="container">
+<div class="cards">
+<div class="card">
+  <img src="images/book1.jpg"  class="card__img" alt="Card image">
+<div class="card__text">
+  <h4>Theory and practice of radio journalism</h4>
+  <p>History of journalism, the typology and functions of the media, production of mass media products, the role of the media in the information sphere.</p>
+</div>
+</div>
+</div>
+
+<div class="cards">
+  <div class="card">
+    <img src="images/book2.jpg"  class="card__img" alt="Card image">
+  <div class="card__text">
+    <h4>The Mechatronics Handbook</h4>
+    <p>The first comprehensive and up-to-date reference on mechatronics, the gold standard in the field.</p>
+  </div>
+  </div>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <img src="images/book3.jpg"  class="card__img" alt="Card image">
+    <div class="card__text">
+      <h4>Microeconomics</h4>
+      <p>Unrivaled in its unique combination of analytical rigor and accessibility, Intermediate Microeconomics.</p>
+    </div>
+    </div>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <img src="images/book4.jpg"  class="card__img" alt="Card image">
+      <div class="card__text">
+        <h4>Accounting</h4>
+        <p>The textbook discusses the main theoretical aspects of accounting and economic analysis.</p>
+      </div>
+      </div>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <img src="images/book5.jpg"  class="card__img" alt="Card image">
+        <div class="card__text">
+          <h4>IT-infrastructure</h4>
+          <p>Discusses the issues of building an effective management system for a modern computerized enterprise.</p>
+        </div>
+        </div>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <img src="images/book6.jpg"  class="card__img" alt="Card image">
+          <div class="card__text">
+            <h4>Calculus</h4>
+            <p>Presents  the  family  of  exponential  functions  using  an  algebraic  and  graphical  approach,  withthe  natural  exponential.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+      </section>
+
+
+       <!-- Footer-->
+       <footer class="bg text-white" id="contacts">
+        <!-- Grid container -->
+        <div class="container-fluid">
+          <!--Grid row-->
+          <div class="row align-items-start">
+            <!--Grid column-->
+            <!--div с классом col-md-4 займет 1/3 ширины экрана-->
+            <div class="col-md-4  ">
+              <div>
+                <img class="logo_footer" src="images/logo.png">
+              </div>
+            </div>
+            <div class="col-md-4">
+
+              <h5 class="text-uppercase">Address</h5>
+              <p>
+                Nur-Sultan <br>
+                Business center EXPO, C1 <br>
+                Kazakhstan, 010000
+              </p>
+            </div>
+            <!--Grid column-->
+                <div class="col-md-4">
+              <h5 class="text-uppercase"> Contacts</h5>
+              <p>
+                +7 (7172)645-710 <br>
+                info@astanait.edu.kz
+              </p>
+            </div>
+          </div>
+        </div>
+    
+      </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+</body>
+</html>

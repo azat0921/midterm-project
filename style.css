@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+body{
+    background-color: #3B70A2;
+}
+
+
+ .nav-link{
+    font-size: 16px;
+    margin: 3px;
+
+    
+}
+
+
+
+/* HEADER PART */
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("images/header_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.navbar{
+    display: inline-block;
+    padding: 8px 12px;
+}
+
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 32px;
+}
+
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 18px;
+    color: white;
+}
+
+/* best books */
+
+/* CAROUSEL PART */
+
+.carousel-item{
+    height: 32rem;
+    background: #777;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+
+.books {
+    background: #3B70A2;
+    padding: 20px;
+    text-align: center;
+    color: white;
+
+}
+
+.books h1::after{
+    content: '';
+    width: 30%;
+    height: 5px;
+    background: #C4C4C4;
+    display: block;
+    margin: auto;
+  
+}
+
+
+/* best books */
+
+.best-books .container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #3B70A2;
+}
+
+.best-books{
+    background-color: #3B70A2;
+}
+
+
+.card{
+    background: white;
+    width: 290px;
+    
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-image{
+    height: 170px;
+    margin-bottom: 15px;
+    background-size:cover ;
+    
+}
+
+
+.car-1{
+    background-image: url("images/col.jpg");
+}
+
+.car-2{
+    background-image: url("images/analysis.jpg");
+}
+
+.car-3{
+    background-image: url("images/discrete.jpg");
+}
+
+.card h2{
+    padding: 10px;
+}
+
+.card p{
+    padding: 10px;
+}
+
+
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card:hover{
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);     /* makes card little bit larger */
+    transition: 1.1s;           /* some kind of movement/action */
+}
+
+
+/* SUBSCRIPTION DATABASES */
+
+
+.data .container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.card-data{
+    background: white;
+    width: 320px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 5px 10px -4px #000000
+
+    
+}
+.data-image{
+    width: 310px;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size:cover ;
+    
+}
+
+.card-data h2{
+    padding: 15px;
+}
+
+.data p{
+    padding: 10px;
+}
+
+
+.db-1{
+    background-image: url("images/ebsco2.jpg");
+}
+
+.db-2{
+    background-image: url("images/webofscience.jpg");
+}
+
+.db-3{
+    background-image: url("images/ASEE.jpg");
+}
+
+.db-4{
+    background-image: url("images/google.jpg");
+}
+.db-5{
+    background-image: url("images/direct.jpg");
+}
+.db-6{
+    background-image: url("images/arxiv.jpg");
+}
+
+.bold{
+    font-weight: bold;
+    display: inline;
+}
+
+
+.logo_footer{   
+    max-width: 160px; 
+    padding:10px; 
+}
+.container-fluid{ justify-content: start;}
+      footer{
+          background-color: rgba(1, 35, 64, 1);
+          padding: 20px;
+      }
